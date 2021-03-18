@@ -32,7 +32,7 @@
         <repository>
             <id>github</id>
             <name>Internal repo</name>
-            <url>https://github.com/xhuljana/MinimumDeletionToUniqueChars</url>
+            <url>https://maven.pkg.github.com/xhuljana/MinimumDeletionToUniqueChars</url>
         </repository>
     </distributionManagement>
 </project>
