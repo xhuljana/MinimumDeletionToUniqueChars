@@ -11,7 +11,7 @@
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-plugin-plugin</artifactId>
+                <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
                     <source>8</source>
                     <target>8</target>
@@ -20,6 +20,12 @@
         </plugins>
     </build>
     <dependencies>
+         <dependency>
+           <groupId>org.apache.maven.plugins</groupId>
+           <artifactId>maven-plugin-plugin</artifactId>
+           <version>3.6.0</version>
+           <type>maven-plugin</type>
+         </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
