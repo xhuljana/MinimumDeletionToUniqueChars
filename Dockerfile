@@ -1,7 +1,7 @@
 FROM ubuntu:20.04
 
-LABEL maintainer="Pascal Watteel" \
-      name="mcsrv" \
+LABEL maintainer="Developer" \
+      name="minimumdeletion" \
       version="1.0"
 
 #set env variables
